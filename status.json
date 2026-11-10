@@ -1,30 +1,30 @@
 {
   "NHI_Diarrhea.csv": {
-    "last_attempt_utc": "2026-11-10T08:16:25Z",
+    "last_attempt_utc": "2026-11-10T08:24:46Z",
     "last_http_status": 200,
-    "last_success_utc": "2026-11-10T08:16:25Z",
+    "last_success_utc": "2026-11-10T08:24:46Z",
     "result": "ok",
     "bytes": 8506552,
     "sha256": "ce47d12c36de0217d3f868b56e5672d252b855eb7fc93617eadefce3a728fc9f"
   },
   "NHI_EnteroviralInfection.csv": {
-    "last_attempt_utc": "2026-11-10T08:16:26Z",
+    "last_attempt_utc": "2026-11-10T08:24:48Z",
     "last_http_status": 200,
-    "last_success_utc": "2026-11-10T08:16:26Z",
+    "last_success_utc": "2026-11-10T08:24:48Z",
     "result": "ok",
     "bytes": 8366837,
     "sha256": "584a55353c76b42d049c18a2129fd909803f102bd6932b033df5306e9643ac58"
   },
   "NHI_Influenza_like_illness.csv": {
-    "last_attempt_utc": "2026-11-10T08:16:28Z",
+    "last_attempt_utc": "2026-11-10T08:24:49Z",
     "last_http_status": 200,
-    "last_success_utc": "2026-11-10T08:16:28Z",
+    "last_success_utc": "2026-11-10T08:24:49Z",
     "result": "ok",
     "bytes": 8493131,
     "sha256": "03dc918d94720ce812cd767158f89f61970a1f49a83573ca7b90adb6a995a425"
   },
   "Weekly_Age_County_Gender_061.csv": {
-    "last_attempt_utc": "2026-11-10T08:16:28Z",
+    "last_attempt_utc": "2026-11-10T08:24:49Z",
     "last_http_status": 404,
     "result": "failed: curl: (22) The requested URL returned error: 404"
   }
