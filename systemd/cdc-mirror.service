@@ -1,0 +1,11 @@
+[Unit]
+Description=CDC open data daily mirror (fetch + push to GitHub)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+# 安裝時 install.sh 會將以下路徑替換為實際 clone 目錄
+WorkingDirectory=/path/to/cdc-data-mirror
+ExecStart=/path/to/cdc-data-mirror/update.sh
+TimeoutStartSec=900

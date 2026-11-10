@@ -5,6 +5,9 @@ cd "$(dirname "$(readlink -f "$0")")"
 
 ./fetch.py
 
+# 先 pull 外部改的 code，讓資料 commit 建在新 code 之上
+git pull --rebase origin main
+
 git add csv/ status.json MANIFEST.md README.md fetch.py update.sh
 if git diff --cached --quiet; then
   echo "no changes"
